@@ -1,10 +1,10 @@
 def square_array
-  [1,2,3].each do |num|
-    num ** 2
-  end
+  result = array.new(numbers)
+  i = 0
 
-  new_array = []
-  [1,4,9].each do |num|
-    new_array << num ** 2
+  while i < numbers
+    result [i] = numbers [i] ** 2
+    i += 1
   end
+  result
 end
