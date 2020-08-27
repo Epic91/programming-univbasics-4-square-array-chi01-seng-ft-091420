@@ -3,7 +3,7 @@ def square_array(array)
   array.each { |num|
     s = Math.sqrt(num)
     if (s - s.floor).zero?
-      new_arr << s.to_i
+      new_array << s.to_i
     else
       new_arr << num * num
     end
