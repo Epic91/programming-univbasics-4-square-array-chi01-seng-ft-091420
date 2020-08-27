@@ -1,5 +1,6 @@
 def square_array(array)
-  a = array.new(array.length)
-  array.each_index { |i| a |i| = array [i] * array [i] }
-  a
+  array.each do |i|
+    i ** 2
+  end
+  square_array(array)
 end
