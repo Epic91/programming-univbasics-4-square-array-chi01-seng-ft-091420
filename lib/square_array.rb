@@ -1,5 +1,5 @@
 def square_array(array)
-  new_arr = []
+  new_array = []
   arr.each { |num|
     s = Math.sqrt(num)
     if (s - s.floor).zero?
