@@ -1,4 +1,4 @@
-def square_array
+def square_array(numbers)
   result = array.new(numbers)
   i = 0
 
