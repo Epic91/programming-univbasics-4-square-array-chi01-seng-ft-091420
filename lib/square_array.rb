@@ -1,6 +1,6 @@
 def square_array(array)
   array.map do |num|
-    if (num.square?)
+    if (num.sqrt)
       num
     else
       num ** 2
