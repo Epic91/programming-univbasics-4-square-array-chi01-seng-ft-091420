@@ -5,7 +5,7 @@ def square_array(array)
     if (s - s.floor).zero?
       new_array << s.to_i
     else
-      new_arr << num * num
+      new_array << num * num
     end
   }
   puts new_arr
