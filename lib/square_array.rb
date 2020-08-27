@@ -8,5 +8,5 @@ def square_array(array)
       new_array << num * num
     end
   }
-  puts new_arr
+  puts new_array
 end
