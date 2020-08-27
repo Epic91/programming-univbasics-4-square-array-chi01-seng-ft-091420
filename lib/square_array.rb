@@ -1,5 +1,9 @@
-def square_array
-  array.each do |i|
-    i ** 2
+def square_array(array)
+  array.map do |num|
+    if (num.square?)
+      num
+    else
+      num ** 2 
+    end
   end
 end
